@@ -212,3 +212,14 @@
     }
 
 }
+@media(max-width:560px){
+    .section-head {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .directions__grid {
+        gap: 5px;
+    }
+}
