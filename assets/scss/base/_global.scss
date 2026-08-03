@@ -1,0 +1,46 @@
+body{
+    background:$color-white;
+}
+.container{
+    width:100%;
+    max-width:$container;
+    margin:0 auto;
+    padding:0 20px;
+}
+section{
+    padding:120px 0;
+}
+main{
+    overflow:hidden;
+}
+.title{
+    color:$color-title;
+    font-weight:700;
+    line-height:1.2;
+}
+.title--h1{
+    font-size:clamp(32px, 4vw, 64px);
+}
+.title--h2{
+    font-size:clamp(24px, 4vw, 48px);
+}
+.title--h3{
+    font-size:clamp(20px, 4vw, 32px);
+}
+.text{
+    font-size:18px;
+    color:$color-text;
+}
+
+@media(max-width:991px){
+    section{
+        padding:90px 0;
+    }
+}
+
+@media(max-width:767px){
+    section{
+        padding:60px 0;
+    }
+
+}
