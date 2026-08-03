@@ -5,7 +5,7 @@
     z-index: 1000;
     width: 100%;
     padding: 20px 0;
-    background: transparent;
+    background: $color-light;
 
     transition:
         background .35s ease,
@@ -15,11 +15,8 @@
 
     &.is-fixed {
         padding: 18px 0;
-
         background: rgba(255,255,255,.92);
-
         backdrop-filter: blur(18px);
-
         box-shadow: 0 10px 40px rgba(17,31,52,.08);
     }
 
@@ -39,32 +36,26 @@
         img {
             display: block;
             width: auto;
-            height: 44px;
+            height: 54px;
             transition: .35s ease;
         }
     }
 
     &.is-fixed &__logo {
-
         img {
-
             height: 40px;
-
         }
-
     }
 
     &__actions {
         display: flex;
         align-items: center;
-
         gap: 18px;
-
         margin-left: auto;
     }
 }
 /* ==========================================
-   Navigation
+    Navigation
 ========================================== */
 
 .nav {
