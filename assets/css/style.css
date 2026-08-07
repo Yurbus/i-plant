@@ -2021,7 +2021,7 @@ body.menu-open {
 .catalog-page .product-card__category {
   margin-bottom: 6px;
   color: #5C6B7A;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: 0.04em;
@@ -2029,7 +2029,7 @@ body.menu-open {
 .catalog-page .product-card__title {
   margin: 0 0 15px;
   color: #0E9CC2;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.3;
   font-weight: 700;
 }
@@ -2171,7 +2171,7 @@ body.menu-open {
     padding: 12px;
   }
   .catalog-page .product-card__title {
-    font-size: 13px;
+    font-size: 14px;
   }
   .catalog-page .product-card__info {
     padding-top: 9px;
@@ -2201,10 +2201,6 @@ body.menu-open {
     gap: 5px;
   }
   .catalog-page .product-card__image {
-    height: 160px;
-  }
-  .catalog-page .product-card__image img {
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: 190px;
   }
 }
