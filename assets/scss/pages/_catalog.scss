@@ -481,12 +481,7 @@
 
             padding: 22px;
 
-            background:
-                linear-gradient(
-                    145deg,
-                    #f7fafc 0%,
-                    #fff 70%
-                );
+            background:#fff;
 
             text-decoration: none;
 
@@ -738,7 +733,6 @@
 
 
         .product-card {
-            background: #fff;
 
             &__image {
                 height: 175px;
