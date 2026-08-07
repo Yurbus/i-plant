@@ -145,6 +145,19 @@ font: 1em sans-serif;
     color: $color-text;
     font-weight: 500;
 }
+.product__characteristic-values {
+    span {
+        position: relative;
+        display: inline-block;
+        margin-right: 6px;
+        &:not(:last-child)::after {
+            content: "/";
+            margin-left: 5px;
+            top: 0;
+            left: 0;
+        }
+    }
+}
 .product__characteristic-title {
     font-size: 18px;
     padding: 20px 0 10px;

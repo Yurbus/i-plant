@@ -402,7 +402,7 @@ body {
 .dropdown__left {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 5px;
 }
 .dropdown__right {
   padding: 10px 0 10px 20px;
@@ -441,13 +441,13 @@ body {
   display: flex;
   align-items: center;
   gap: 18px;
-  padding: 14px;
+  padding: 8px;
   border-radius: 18px;
   transition: 0.3s ease;
 }
 .dropdown-card__image {
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   overflow: hidden;
   border-radius: 14px;
   flex-shrink: 0;
@@ -2315,6 +2315,18 @@ body.menu-open {
 .product__characteristic-value {
   color: #5C6B7A;
   font-weight: 500;
+}
+
+.product__characteristic-values span {
+  position: relative;
+  display: inline-block;
+  margin-right: 6px;
+}
+.product__characteristic-values span:not(:last-child)::after {
+  content: "/";
+  margin-left: 5px;
+  top: 0;
+  left: 0;
 }
 
 .product__characteristic-title {
