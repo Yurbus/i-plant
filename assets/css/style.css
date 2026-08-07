@@ -2163,9 +2163,12 @@ body.menu-open {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
   }
+  .catalog-page .product-card {
+    background: #fff;
+  }
   .catalog-page .product-card__image {
     height: 175px;
-    padding: 14px;
+    padding: 10px;
   }
   .catalog-page .product-card__content {
     padding: 12px;
@@ -2199,8 +2202,5 @@ body.menu-open {
   .catalog-page .catalog-grid {
     grid-template-columns: 1fr 1fr;
     gap: 5px;
-  }
-  .catalog-page .product-card__image {
-    height: 190px;
   }
 }

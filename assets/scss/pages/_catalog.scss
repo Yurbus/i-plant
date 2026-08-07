@@ -738,10 +738,11 @@
 
 
         .product-card {
+            background: #fff;
 
             &__image {
                 height: 175px;
-                padding: 14px;
+                padding: 10px;
             }
 
             &__content {
@@ -798,7 +799,7 @@
 
 
         .product-card__image {
-            height: 190px;
+            // height: 190px;
         }
     }
 }
