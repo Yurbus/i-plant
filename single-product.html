@@ -431,11 +431,11 @@
                 <div class="product__content">
 
                     <span class="product__category">
-                        Ортодонтична стоматологія
+                        Імплантати для ламінопластики
                     </span>
 
                     <h1 class="product__title">
-                        Пластина 08-310
+                        Гвинт (2.0)
                     </h1>
 
 
@@ -448,7 +448,7 @@
                             </span>
 
                             <span class="product__characteristic-value">
-                                08-310
+                                10-002
                             </span>
 
                         </div>
@@ -477,6 +477,8 @@
                                 <span>2,0x7-B2,0x7</span>
                                 <span>2,0x9-B2,0x9</span>
                                 <span>2,0x11-B2,0x11</span>
+                                <span>2,0x11-B2,0x13</span>
+                                <span>2,0x11-B2,0x15</span>
 
                             </div>
 
@@ -1045,6 +1047,186 @@
     </div>
 </footer>
 
+
+
+
+<div class="product-request-modal js-product-modal">
+
+    <div class="product-request-modal__overlay js-product-modal-close"></div>
+
+    <div class="product-request-modal__dialog">
+
+        <button
+            type="button"
+            class="product-request-modal__close js-product-modal-close"
+            aria-label="Закрити">
+
+            <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true">
+
+                <path
+                    d="M6 6L18 18M18 6L6 18"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"/>
+
+            </svg>
+
+        </button>
+
+
+        <div class="product-request-modal__header">
+
+            <span class="product-request-modal__label">
+                Запит на ціну
+            </span>
+
+            <h2 class="product-request-modal__title">
+                Отримати вартість товару
+            </h2>
+
+            <p class="product-request-modal__text">
+                Залиште свої контактні дані, і наш менеджер
+                зв'яжеться з вами.
+            </p>
+
+        </div>
+
+
+        <!-- Товар -->
+
+        <div class="product-request-modal__product">
+
+            <span class="product-request-modal__product-label">
+                Товар
+            </span>
+
+            <strong
+                class="product-request-modal__product-name js-request-product">
+                Гвинт (2.0)
+            </strong>
+
+            <span
+                class="product-request-modal__product-article js-request-article">
+                Артикул: 10-002
+            </span>
+
+        </div>
+
+
+        <form
+            class="product-request-form js-product-request-form"
+            action=""
+            method="post">
+
+            <input
+                type="hidden"
+                name="product_name"
+                class="js-request-product-input"
+                value="">
+
+            <input
+                type="hidden"
+                name="product_article"
+                class="js-request-article-input"
+                value="">
+
+
+            <div class="form-field">
+
+                <label for="request-name">
+                    Ваше ім'я*
+                </label>
+
+                <input
+                    type="text"
+                    id="request-name"
+                    name="name"
+                    placeholder="Ваше ім'я"
+                    required>
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label for="request-phone">
+                    Телефон*
+                </label>
+
+                <input
+                    type="tel"
+                    id="request-phone"
+                    name="phone"
+                    placeholder="+380 __ ___ __ __"
+                    required>
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label for="request-email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="request-email"
+                    name="email"
+                    placeholder="your@email.com">
+
+            </div>
+
+
+            <div class="form-field">
+
+                <label for="request-message">
+                    Повідомлення
+                </label>
+
+                <textarea
+                    id="request-message"
+                    name="message"
+                    rows="4"
+                    placeholder="Ваше повідомлення"></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn btn--primary product-request-form__submit">
+
+                <span>Надіслати запит</span>
+
+                <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true">
+
+                    <path
+                        d="M4 12H20M13 5L20 12L13 19"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+
+                </svg>
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
 
 <script src="assets/js/main.js"></script>
 <script src="assets/js/header.js"></script>
