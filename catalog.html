@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>І-ПЛАНТ</title>
+    <title>Каталог І-ПЛАНТ</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -327,178 +327,812 @@
     </div>
 
 </header>
-<main>
 
-    <section class="directions section">
+<main class="catalog-page">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="section-head">
+        <!-- BREADCRUMBS -->
+        <nav class="breadcrumbs" aria-label="Хлібні крихти">
 
-                <h2 class="section-title">
-                    Наші напрямки
-                </h2>
+            <a href="index.html">Головна</a>
 
-                <a href="catalog.html" class="section-link">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                <path
+                    d="M9 18L15 12L9 6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"/>
+            </svg>
 
-                    Переглянути всі
+            <a href="catalog.html">Продукція</a>
 
-                    <img src="assets/icons/wordpress_arrow.svg" alt="">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                <path
+                    d="M9 18L15 12L9 6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"/>
+            </svg>
 
-                </a>
+            <span>Пластини для ортодонтичної стоматології</span>
 
+        </nav>
+
+
+        <!-- PAGE HEADER -->
+
+        <div class="catalog-page__header">
+
+            <div>
+                <span class="catalog-page__eyebrow">
+                    ПРОДУКЦІЯ І-ПЛАНТ
+                </span>
+
+                <h1 class="catalog-page__title">
+                    Пластини для ортодонтичної стоматології
+                </h1>
             </div>
 
-            <div class="directions__grid">
+            <button
+                class="catalog-page__filter-btn js-catalog-filter"
+                type="button"
+                aria-expanded="false">
 
-                <!-- card -->
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M4 6H20M7 12H17M10 18H14"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"/>
+                </svg>
 
-                <article class="direction-card">
-                    <a href="#" class="direction-card__image">
-                        <img src="assets/images/vektor-1.png" alt="">
-                    </a>
+                <span>Фільтр</span>
 
-                    <div class="direction-card__content">
-                        <h3 class="direction-card__title">
-                            <a href="#">
-                                Щелепно-лицьова хірургія 
-                            </a>
-                        </h3>
-
-                        <p class="direction-card__text">
-                            Пластини, сітки, гвинти та імплантати для реконструкції
-                            кісткової тканини обличчя та щелеп.
-                        </p>
-
-                        <a href="#" class="direction-card__link">
-                            Детальніше
-                            <img src="assets/icons/wordpress_arrow.svg" alt="">
-                        </a>
-                    </div>
-                </article>
-
-                <article class="direction-card">
-                    <a href="#" class="direction-card__image">
-                        <img src="assets/images/vektor-2.png" alt="">
-                    </a>
-
-                    <div class="direction-card__content">
-                        <h3 class="direction-card__title">
-                            <a href="#">
-                                Нейрохірургія 
-                            </a>
-                        </h3>
-
-                        <p class="direction-card__text">
-                            Система фіксації для краніопластики
-                            та нейрохірургічних операцій
-                        </p>
-
-                        <a href="#" class="direction-card__link">
-                            Детальніше
-                            <img src="assets/icons/wordpress_arrow.svg" alt="">
-                        </a>
-                    </div>
-                </article>
-
-                <article class="direction-card">
-                    <a href="#" class="direction-card__image">
-                        <img src="assets/images/vektor-3.png" alt="">
-                    </a>
-
-                    <div class="direction-card__content">
-                        <h3 class="direction-card__title">
-                            <a href="#">
-                                Ортодонтична стоматологія
-                            </a>
-                        </h3>
-
-                        <p class="direction-card__text">
-                            Пластини, гвинти та аксесуари для ортодонтичного
-                            лікування
-                        </p>
-
-                        <a href="#" class="direction-card__link">
-                            Детальніше
-                            <img src="assets/icons/wordpress_arrow.svg" alt="">
-                        </a>
-                    </div>
-                </article>
-
-                <article class="direction-card">
-                    <a href="#" class="direction-card__image">
-                        <img src="assets/images/vektor-4.png" alt="">
-                    </a>
-
-                    <div class="direction-card__content">
-                        <h3 class="direction-card__title">
-                            <a href="#">
-                                Ламінопластика
-                            </a>
-                        </h3>
-
-                        <p class="direction-card__text">
-                            Системи для декомпресії хребта та стабілізації
-                        </p>
-
-                        <a href="#" class="direction-card__link">
-                            Детальніше
-                            <img src="assets/icons/wordpress_arrow.svg" alt="">
-                        </a>
-                    </div>
-                </article>
-
-                <article class="direction-card">
-                    <a href="#" class="direction-card__image">
-                        <img src="assets/images/vektor-5.png" alt="">
-                    </a>
-
-                    <div class="direction-card__content">
-                        <h3 class="direction-card__title">
-                            <a href="#">
-                                Спінальна хірургія
-                            </a>
-                        </h3>
-
-                        <p class="direction-card__text">
-                            Імпланти та системи фіксації для спінальних операцій
-                        </p>
-
-                        <a href="#" class="direction-card__link">
-                            Детальніше
-                            <img src="assets/icons/wordpress_arrow.svg" alt="">
-                        </a>
-                    </div>
-                </article>
-
-                <article class="direction-card">
-                    <a href="#" class="direction-card__image">
-                        <img src="assets/images/vektor-6.png" alt="">
-                    </a>
-
-                    <div class="direction-card__content">
-                        <h3 class="direction-card__title">
-                            <a href="#">
-                                Індивідуальні пластини
-                            </a>
-                        </h3>
-
-                        <p class="direction-card__text">
-                            Виготовлення імплантів за індивідуальними 3D-моделями
-                        </p>
-
-                        <a href="#" class="direction-card__link">
-                            Детальніше
-                            <img src="assets/icons/wordpress_arrow.svg" alt="">
-                        </a>
-                    </div>
-                </article>
-
-            </div>
+            </button>
 
         </div>
 
-    </section>
+
+        <div class="catalog-layout">
+
+
+            <!-- SIDEBAR -->
+
+            <aside class="catalog-sidebar js-catalog-sidebar">
+
+                <div class="catalog-sidebar__inner">
+
+
+                    <div class="catalog-sidebar__section">
+
+                        <div class="catalog-sidebar__title">
+                            Категорії продукції
+                        </div>
+
+
+                        <nav class="catalog-menu">
+
+
+                            <div class="catalog-menu__group">
+
+                                <a
+                                    href="#"
+                                    class="catalog-menu__link">
+
+                                    Імплантати для
+                                    щелепно-лицьової хірургії
+
+                                </a>
+
+                                <div class="catalog-menu__sub">
+
+                                    <a href="#">
+                                        Пластини реконструкційні
+                                        для нижньої щелепи
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="catalog-menu__group is-active">
+
+                                <a
+                                    href="#"
+                                    class="catalog-menu__link">
+
+                                    Пластини для
+                                    ортодонтичної стоматології
+
+                                </a>
+
+                            </div>
+
+
+                            <div class="catalog-menu__group">
+
+                                <a
+                                    href="#"
+                                    class="catalog-menu__link">
+
+                                    Імплантати
+                                    для нейрохірургії
+
+                                </a>
+
+                            </div>
+
+
+                            <div class="catalog-menu__group">
+
+                                <a
+                                    href="#"
+                                    class="catalog-menu__link">
+
+                                    Імплантати
+                                    для ламінопластики
+
+                                </a>
+
+                            </div>
+
+
+                            <div class="catalog-menu__group">
+
+                                <div class="catalog-menu__link catalog-menu__link--parent">
+                                    Спінальна хірургія
+                                </div>
+
+                                <div class="catalog-menu__sub">
+
+                                    <a href="#">
+                                        Система транспедикулярної
+                                        фіксації хребта
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="catalog-menu__group">
+
+                                <a
+                                    href="#"
+                                    class="catalog-menu__link">
+
+                                    Індивідуальні титанові пластини
+                                    для краніопластики
+
+                                </a>
+
+                            </div>
+
+                        </nav>
+
+                    </div>
+
+
+                    <!-- PDF -->
+
+                    <div class="catalog-sidebar__section catalog-sidebar__documents">
+
+                        <div class="catalog-sidebar__title">
+                            Каталоги продукції
+                        </div>
+
+
+                        <a
+                            href="#"
+                            class="catalog-document"
+                            target="_blank">
+
+                            <span class="catalog-document__icon">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="48" viewBox="0 0 42 48" fill="none">
+                                <path d="M8 2H27L40 15V44C40 45.1 39.1 46 38 46H8C6.9 46 6 45.1 6 44V4C6 2.9 6.9 2 8 2Z" stroke="#0E9CC2" stroke-width="2"/>
+                                <path d="M27 2V15H40" stroke="#0E9CC2" stroke-width="2"/>
+                                <path d="M11.8594 32.0007V23.2734H15.1321C15.8026 23.2734 16.3651 23.3984 16.8196 23.6484C17.277 23.8984 17.6222 24.2422 17.8551 24.6797C18.0909 25.1143 18.2088 25.6087 18.2088 26.1626C18.2088 26.7223 18.0909 27.2195 17.8551 27.6541C17.6193 28.0888 17.2713 28.4311 16.8111 28.6811C16.3509 28.9283 15.7841 29.0518 15.1108 29.0518H12.9418V27.7521H14.8977C15.2898 27.7521 15.6108 27.6839 15.8608 27.5476C16.1108 27.4112 16.2955 27.2237 16.4148 26.9851C16.5369 26.7464 16.598 26.4723 16.598 26.1626C16.598 25.853 16.5369 25.5803 16.4148 25.3445C16.2955 25.1087 16.1094 24.9254 15.8565 24.7947C15.6065 24.6612 15.2841 24.5945 14.8892 24.5945H13.4403V32.0007H11.8594Z" fill="#0E9CC2"/>
+                                <path d="M22.5394 32.0007H19.582V23.2734H22.5991C23.4656 23.2734 24.2099 23.4482 24.832 23.7976C25.457 24.1442 25.9371 24.6428 26.2724 25.2933C26.6076 25.9439 26.7752 26.7223 26.7752 27.6286C26.7752 28.5376 26.6062 29.3189 26.2681 29.9723C25.9329 30.6257 25.4485 31.1271 24.815 31.4766C24.1843 31.826 23.4258 32.0007 22.5394 32.0007ZM21.163 30.6328H22.4627C23.0707 30.6328 23.5778 30.522 23.984 30.3004C24.3903 30.076 24.6957 29.7422 24.9002 29.299C25.1048 28.853 25.207 28.2962 25.207 27.6286C25.207 26.9609 25.1048 26.407 24.9002 25.9666C24.6957 25.5234 24.3931 25.1925 23.9925 24.9737C23.5948 24.7521 23.1005 24.6413 22.5096 24.6413H21.163V30.6328Z" fill="#0E9CC2"/>
+                                <path d="M28.2773 32.0007V23.2734H33.8683V24.5987H29.8583V26.968H33.4847V28.2933H29.8583V32.0007H28.2773Z" fill="#0E9CC2"/>
+                                </svg>
+                                
+                            </span>
+
+                            <span>
+                                katalog_2021-HX.pdf
+                            </span>
+
+                        </a>
+
+
+                        <a
+                            href="#"
+                            class="catalog-document"
+                            target="_blank">
+
+                            <span class="catalog-document__icon">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="48" viewBox="0 0 42 48" fill="none">
+                                <path d="M8 2H27L40 15V44C40 45.1 39.1 46 38 46H8C6.9 46 6 45.1 6 44V4C6 2.9 6.9 2 8 2Z" stroke="#0E9CC2" stroke-width="2"/>
+                                <path d="M27 2V15H40" stroke="#0E9CC2" stroke-width="2"/>
+                                <path d="M11.8594 32.0007V23.2734H15.1321C15.8026 23.2734 16.3651 23.3984 16.8196 23.6484C17.277 23.8984 17.6222 24.2422 17.8551 24.6797C18.0909 25.1143 18.2088 25.6087 18.2088 26.1626C18.2088 26.7223 18.0909 27.2195 17.8551 27.6541C17.6193 28.0888 17.2713 28.4311 16.8111 28.6811C16.3509 28.9283 15.7841 29.0518 15.1108 29.0518H12.9418V27.7521H14.8977C15.2898 27.7521 15.6108 27.6839 15.8608 27.5476C16.1108 27.4112 16.2955 27.2237 16.4148 26.9851C16.5369 26.7464 16.598 26.4723 16.598 26.1626C16.598 25.853 16.5369 25.5803 16.4148 25.3445C16.2955 25.1087 16.1094 24.9254 15.8565 24.7947C15.6065 24.6612 15.2841 24.5945 14.8892 24.5945H13.4403V32.0007H11.8594Z" fill="#0E9CC2"/>
+                                <path d="M22.5394 32.0007H19.582V23.2734H22.5991C23.4656 23.2734 24.2099 23.4482 24.832 23.7976C25.457 24.1442 25.9371 24.6428 26.2724 25.2933C26.6076 25.9439 26.7752 26.7223 26.7752 27.6286C26.7752 28.5376 26.6062 29.3189 26.2681 29.9723C25.9329 30.6257 25.4485 31.1271 24.815 31.4766C24.1843 31.826 23.4258 32.0007 22.5394 32.0007ZM21.163 30.6328H22.4627C23.0707 30.6328 23.5778 30.522 23.984 30.3004C24.3903 30.076 24.6957 29.7422 24.9002 29.299C25.1048 28.853 25.207 28.2962 25.207 27.6286C25.207 26.9609 25.1048 26.407 24.9002 25.9666C24.6957 25.5234 24.3931 25.1925 23.9925 24.9737C23.5948 24.7521 23.1005 24.6413 22.5096 24.6413H21.163V30.6328Z" fill="#0E9CC2"/>
+                                <path d="M28.2773 32.0007V23.2734H33.8683V24.5987H29.8583V26.968H33.4847V28.2933H29.8583V32.0007H28.2773Z" fill="#0E9CC2"/>
+                                </svg>
+
+                            </span>
+
+                            <span>
+                                katalog_2021-18.pdf
+                            </span>
+
+                        </a>
+
+
+                        <a
+                            href="#contacts"
+                            class="catalog-sidebar__contact">
+
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+
+                                <path
+                                    d="M21 15.5V19A2 2 0 0 1 18.8 21
+                                    A17.9 17.9 0 0 1 10.9 18.1
+                                    A17.6 17.6 0 0 1 5.9 13.1
+                                    A17.9 17.9 0 0 1 3 5.2
+                                    A2 2 0 0 1 5 3H8.5
+                                    L10 7L7.5 8.5
+                                    A14 14 0 0 0 15.5 16.5
+                                    L17 14L21 15.5Z"
+                                    stroke="currentColor"
+                                    stroke-width="1.7"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+
+                            </svg>
+
+                            <span>Зв'язатися з нами</span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+
+            <!-- PRODUCTS -->
+
+            <section class="catalog-products">
+
+
+                <div class="catalog-products__top">
+
+                    <div class="catalog-products__count">
+                        Пластини
+                    </div>
+
+                    <div class="catalog-products__sort">
+
+                        <span>Сортування:</span>
+
+                        <button type="button">
+                            За назвою
+
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M6 9L12 15L18 9"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+                            </svg>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="catalog-grid">
+
+
+                    <!-- PRODUCT 1 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-card__favorite"
+                            type="button"
+                            aria-label="Додати в обране">
+
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+
+                                <path
+                                    d="M20.8 8.7
+                                    C20.8 13.5 12 19 12 19
+                                    S3.2 13.5 3.2 8.7
+                                    A4.7 4.7 0 0 1 12 6.2
+                                    A4.7 4.7 0 0 1 20.8 8.7Z"
+                                    stroke="currentColor"
+                                    stroke-width="1.7"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+
+                            </svg>
+
+                        </button>
+
+
+                        <a href="product.html" class="product-card__image">
+
+                            <img
+                                src="assets/images/products/139.png"
+                                alt="Пластина 08-310"
+                                loading="lazy">
+
+                        </a>
+
+
+                        <div class="product-card__content">
+
+                            <span class="product-card__category">
+                                Пластина для ортодонтичної стоматології
+                            </span>
+
+                            <h2 class="product-card__title">
+                                Пластина 08-310
+                            </h2>
+
+
+                            <div class="product-card__info">
+
+                                <div>
+                                    <span>Товщина</span>
+                                    <strong>0,8 мм</strong>
+                                </div>
+
+                                <div>
+                                    <span>Артикул</span>
+                                    <strong>08-310</strong>
+                                </div>
+
+                            </div>
+
+
+                            <a
+                                href="product.html"
+                                class="product-card__link">
+
+                                Детальніше
+
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+
+                                    <path
+                                        d="M5 12H19M13 6L19 12L13 18"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"/>
+
+                                </svg>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-card__favorite"
+                            type="button"
+                            aria-label="Додати в обране">
+
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M20.8 8.7C20.8 13.5 12 19 12 19S3.2 13.5 3.2 8.7A4.7 4.7 0 0 1 12 6.2A4.7 4.7 0 0 1 20.8 8.7Z"
+                                    stroke="currentColor"
+                                    stroke-width="1.7"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+                            </svg>
+
+                        </button>
+
+                        <a href="product.html" class="product-card__image">
+
+                            <img
+                                src="assets/images/products/139.png"
+                                alt="Пластина 08-311"
+                                loading="lazy">
+
+                        </a>
+
+                        <div class="product-card__content">
+
+                            <span class="product-card__category">
+                                Пластина для ортодонтичної стоматології
+                            </span>
+
+                            <h2 class="product-card__title">
+                                Пластина 08-311
+                            </h2>
+
+                            <div class="product-card__info">
+
+                                <div>
+                                    <span>Товщина</span>
+                                    <strong>0,8 мм</strong>
+                                </div>
+
+                                <div>
+                                    <span>Артикул</span>
+                                    <strong>08-311</strong>
+                                </div>
+
+                            </div>
+
+                            <a href="product.html" class="product-card__link">
+                                Детальніше
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M5 12H19M13 6L19 12L13 18"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 3 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-card__favorite"
+                            type="button"
+                            aria-label="Додати в обране">
+
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M20.8 8.7C20.8 13.5 12 19 12 19S3.2 13.5 3.2 8.7A4.7 4.7 0 0 1 12 6.2A4.7 4.7 0 0 1 20.8 8.7Z"
+                                    stroke="currentColor"
+                                    stroke-width="1.7"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+                            </svg>
+
+                        </button>
+
+                        <a href="product.html" class="product-card__image">
+
+                            <img
+                                src="assets/images/products/139.png"
+                                alt="Пластина 08-312"
+                                loading="lazy">
+
+                        </a>
+
+                        <div class="product-card__content">
+
+                            <span class="product-card__category">
+                                Пластина для ортодонтичної стоматології
+                            </span>
+
+                            <h2 class="product-card__title">
+                                Пластина 08-312
+                            </h2>
+
+                            <div class="product-card__info">
+
+                                <div>
+                                    <span>Товщина</span>
+                                    <strong>0,8 мм</strong>
+                                </div>
+
+                                <div>
+                                    <span>Артикул</span>
+                                    <strong>08-312</strong>
+                                </div>
+
+                            </div>
+
+                            <a href="product.html" class="product-card__link">
+                                Детальніше
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M5 12H19M13 6L19 12L13 18"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 4 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-card__favorite"
+                            type="button"
+                            aria-label="Додати в обране">
+
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M20.8 8.7C20.8 13.5 12 19 12 19S3.2 13.5 3.2 8.7A4.7 4.7 0 0 1 12 6.2A4.7 4.7 0 0 1 20.8 8.7Z"
+                                    stroke="currentColor"
+                                    stroke-width="1.7"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+                            </svg>
+
+                        </button>
+
+                        <a href="product.html" class="product-card__image">
+
+                            <img
+                                src="assets/images/products/139.png"
+                                alt="Пластина 08-313"
+                                loading="lazy">
+
+                        </a>
+
+                        <div class="product-card__content">
+
+                            <span class="product-card__category">
+                                Пластина для ортодонтичної стоматології
+                            </span>
+
+                            <h2 class="product-card__title">
+                                Пластина 08-313
+                            </h2>
+
+                            <div class="product-card__info">
+
+                                <div>
+                                    <span>Товщина</span>
+                                    <strong>0,8 мм</strong>
+                                </div>
+
+                                <div>
+                                    <span>Артикул</span>
+                                    <strong>08-313</strong>
+                                </div>
+
+                            </div>
+
+                            <a href="product.html" class="product-card__link">
+                                Детальніше
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M5 12H19M13 6L19 12L13 18"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 5 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-card__favorite"
+                            type="button"
+                            aria-label="Додати в обране">
+
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M20.8 8.7C20.8 13.5 12 19 12 19S3.2 13.5 3.2 8.7A4.7 4.7 0 0 1 12 6.2A4.7 4.7 0 0 1 20.8 8.7Z"
+                                    stroke="currentColor"
+                                    stroke-width="1.7"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+                            </svg>
+
+                        </button>
+
+                        <a href="product.html" class="product-card__image">
+
+                            <img
+                                src="assets/images/products/139.png"
+                                alt="Пластина 08-314"
+                                loading="lazy">
+
+                        </a>
+
+                        <div class="product-card__content">
+
+                            <span class="product-card__category">
+                                Пластина для ортодонтичної стоматології
+                            </span>
+
+                            <h2 class="product-card__title">
+                                Пластина 08-314
+                            </h2>
+
+                            <div class="product-card__info">
+
+                                <div>
+                                    <span>Товщина</span>
+                                    <strong>0,8 мм</strong>
+                                </div>
+
+                                <div>
+                                    <span>Артикул</span>
+                                    <strong>08-314</strong>
+                                </div>
+
+                            </div>
+
+                            <a href="product.html" class="product-card__link">
+                                Детальніше
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M5 12H19M13 6L19 12L13 18"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 6 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-card__favorite"
+                            type="button"
+                            aria-label="Додати в обране">
+
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M20.8 8.7C20.8 13.5 12 19 12 19S3.2 13.5 3.2 8.7A4.7 4.7 0 0 1 12 6.2A4.7 4.7 0 0 1 20.8 8.7Z"
+                                    stroke="currentColor"
+                                    stroke-width="1.7"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"/>
+                            </svg>
+
+                        </button>
+
+                        <a href="product.html" class="product-card__image">
+
+                            <img
+                                src="assets/images/products/139.png"
+                                alt="Пластина 08-315"
+                                loading="lazy">
+
+                        </a>
+
+                        <div class="product-card__content">
+
+                            <span class="product-card__category">
+                                Пластина для ортодонтичної стоматології
+                            </span>
+
+                            <h2 class="product-card__title">
+                                Пластина 08-315
+                            </h2>
+
+                            <div class="product-card__info">
+
+                                <div>
+                                    <span>Товщина</span>
+                                    <strong>0,8 мм</strong>
+                                </div>
+
+                                <div>
+                                    <span>Артикул</span>
+                                    <strong>08-315</strong>
+                                </div>
+
+                            </div>
+
+                            <a href="product.html" class="product-card__link">
+                                Детальніше
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M5 12H19M13 6L19 12L13 18"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- PAGINATION -->
+
+                <nav class="catalog-pagination" aria-label="Пагінація">
+
+                    <a
+                        href="#"
+                        class="catalog-pagination__arrow"
+                        aria-label="Попередня сторінка">
+
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M15 18L9 12L15 6"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"/>
+                        </svg>
+
+                    </a>
+
+
+                    <a href="#" class="is-active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+
+
+                    <a
+                        href="#"
+                        class="catalog-pagination__arrow"
+                        aria-label="Наступна сторінка">
+
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M9 18L15 12L9 6"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"/>
+                        </svg>
+
+                    </a>
+
+                </nav>
+
+            </section>
+
+        </div>
+
+    </div>
 
 </main>
 

@@ -1,5 +1,7 @@
-
+// ===========================
 // dropdown
+// ===========================
+
 const dropdown = document.querySelector(".js-dropdown");
 
 const dropdownBtn = document.querySelector(".js-dropdown-btn");
@@ -110,7 +112,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+
+// ===========================
 // mobile-submenu
+// ===========================
+
 const dropdownButtons = document.querySelectorAll(".mobile-nav__button");
 
 dropdownButtons.forEach(button => {
@@ -134,8 +140,10 @@ dropdownButtons.forEach(button => {
 
 });
 
-
+// ===========================
 // header__phones
+// ===========================
+
 document.addEventListener('DOMContentLoaded', () => {
 
     const phoneToggle = document.querySelector('.js-phone-toggle');
