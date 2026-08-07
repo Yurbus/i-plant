@@ -133,3 +133,67 @@ dropdownButtons.forEach(button => {
     });
 
 });
+
+
+// header__phones
+document.addEventListener('DOMContentLoaded', () => {
+
+    const phoneToggle = document.querySelector('.js-phone-toggle');
+    const phoneDropdown = document.querySelector('.js-phone-dropdown');
+
+    if (!phoneToggle || !phoneDropdown) {
+        return;
+    }
+
+
+    // Відкрити / закрити
+    phoneToggle.addEventListener('click', (event) => {
+
+        event.stopPropagation();
+
+        const isOpen = phoneDropdown.classList.toggle('is-open');
+
+        phoneToggle.classList.toggle('is-active', isOpen);
+
+        phoneToggle.setAttribute(
+            'aria-expanded',
+            isOpen ? 'true' : 'false'
+        );
+    });
+
+
+    // Не закривати при натисканні всередині dropdown
+    phoneDropdown.addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
+
+
+    // Закрити при натисканні за межами
+    document.addEventListener('click', () => {
+
+        phoneDropdown.classList.remove('is-open');
+        phoneToggle.classList.remove('is-active');
+
+        phoneToggle.setAttribute(
+            'aria-expanded',
+            'false'
+        );
+    });
+
+
+    // Закрити ESC
+    document.addEventListener('keydown', (event) => {
+
+        if (event.key === 'Escape') {
+
+            phoneDropdown.classList.remove('is-open');
+            phoneToggle.classList.remove('is-active');
+
+            phoneToggle.setAttribute(
+                'aria-expanded',
+                'false'
+            );
+        }
+    });
+
+});
