@@ -48,12 +48,21 @@
 
     &__description {
         max-width: 270px;
-        margin: 0 0 35px;
+        margin: 0 0 15px;
 
         font-size: 13px;
         line-height: 1.65;
 
         color: rgba(255, 255, 255, 0.62);
+    }
+    &__infotext {
+        display: inline-block;
+        font-size: 12px;
+        max-width: 300px;
+        color:  rgba(255, 255, 255, 0.62);;
+            a {
+                color: $color-primary;
+            }
     }
 
     &__copyright {
@@ -237,8 +246,12 @@
 
     &__bottom-left {
         font-size: 11px;
-
         color: rgba(255, 255, 255, 0.38);
+        max-width: 400px;
+        a {
+            color: $color-primary;
+            text-decoration: underline;
+        }
     }
 
     &__bottom-links {
@@ -248,10 +261,9 @@
     }
 
     &__bottom-link {
-        font-size: 11px;
-
+        font-size: 12px;
+        text-decoration: underline;
         color: rgba(255, 255, 255, 0.38);
-        text-decoration: none;
 
         transition: color 0.25s ease;
 

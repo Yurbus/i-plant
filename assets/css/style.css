@@ -706,10 +706,19 @@ body.menu-open {
 }
 .footer__description {
   max-width: 270px;
-  margin: 0 0 35px;
+  margin: 0 0 15px;
   font-size: 13px;
   line-height: 1.65;
   color: rgba(255, 255, 255, 0.62);
+}
+.footer__infotext {
+  display: inline-block;
+  font-size: 12px;
+  max-width: 300px;
+  color: rgba(255, 255, 255, 0.62);
+}
+.footer__infotext a {
+  color: #0E9CC2;
 }
 .footer__copyright {
   margin: 0;
@@ -821,6 +830,11 @@ body.menu-open {
 .footer__bottom-left {
   font-size: 11px;
   color: rgba(255, 255, 255, 0.38);
+  max-width: 400px;
+}
+.footer__bottom-left a {
+  color: #0E9CC2;
+  text-decoration: underline;
 }
 .footer__bottom-links {
   display: flex;
@@ -828,9 +842,9 @@ body.menu-open {
   gap: 25px;
 }
 .footer__bottom-link {
-  font-size: 11px;
+  font-size: 12px;
+  text-decoration: underline;
   color: rgba(255, 255, 255, 0.38);
-  text-decoration: none;
   transition: color 0.25s ease;
 }
 .footer__bottom-link:hover {
@@ -1721,6 +1735,10 @@ body.menu-open {
 /* ================================
     Pages
 ================================ */
+.catalog-filter-open {
+  overflow: hidden;
+}
+
 .catalog-page {
   padding: 130px 0 80px;
   background: #f7fafc;
@@ -1887,9 +1905,6 @@ body.menu-open {
   line-height: 1;
   font-weight: 800;
   color: #fff;
-}
-.catalog-page .catalog-filter-open {
-  overflow: hidden;
 }
 .catalog-page .catalog-sidebar__contact {
   display: flex;

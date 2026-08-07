@@ -1,3 +1,6 @@
+.catalog-filter-open {
+    overflow: hidden;
+}
 .catalog-page {
     padding: 130px 0 80px;
 
@@ -288,10 +291,6 @@
             }
         }
     }
-.catalog-filter-open {
-    overflow: hidden;
-}
-
     .catalog-sidebar__contact {
         display: flex;
         align-items: center;
