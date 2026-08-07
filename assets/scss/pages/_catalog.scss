@@ -802,12 +802,16 @@
 
 
         .catalog-grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
         }
 
 
         .product-card__image {
-            height: 220px;
+            height: 160px;
+            img {
+                object-fit: cover;
+            }
         }
     }
 }

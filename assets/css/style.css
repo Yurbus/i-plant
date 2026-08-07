@@ -2198,9 +2198,14 @@ body.menu-open {
     display: none;
   }
   .catalog-page .catalog-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
   }
   .catalog-page .product-card__image {
-    height: 220px;
+    height: 160px;
+  }
+  .catalog-page .product-card__image img {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
