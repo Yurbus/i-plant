@@ -78,12 +78,21 @@ font: 1em sans-serif;
 .product__content {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
-
     padding: 20px 0;
 }
-
+.product__made-to-order {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 30px;
+    background: #f1671752;
+    color: $color-warning;
+    margin-bottom: 12px;
+}
 .product__category {
     display: block;
 
